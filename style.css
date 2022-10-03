@@ -1,0 +1,308 @@
+:root{
+    --main: #d4d4d4;
+    --accent: #021d46;
+    --nav-bar: #353333;
+    --text-light: #dcdfd9;
+    --text-dark: #50514F;
+    --base-color-light: red;
+  }
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: var(--main);
+    height: 100vh;
+}
+
+[class*="col-"] {width: 100%;}
+
+.header {
+    background-color: var(--accent);
+    background-image:url("soesterduinen.jpg");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 15px;
+    }
+.header h1{
+    font-size: 5rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent);
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
+    }
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+.menu li {
+    padding: 8px;
+    margin-bottom: 3px;
+    background-color: var(--accent);
+    color: var(--text-light);
+    }
+.menu li:hover {
+    background-color: var(--accent);
+    }
+.col-9, img{
+ width: 80%;
+ text-align: center;
+ margin: 1.8rem auto 0 auto;
+
+
+}
+.col-9 img{
+    border-radius: 1.5rem;
+    border: 2px solid var(--accent)
+}
+.col-9 h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+.col-9 p{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.footer{
+    position: relative;
+    bottom:0;
+    width: 100%;
+    height: 85px;
+    background-color: var(--accent);
+    color: var(--text-light);
+    border: 1px solid black;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 765px){
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        
+
+    .header {
+        background-color: var(--accent);
+
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding: 15px;
+        }
+        .header h1{
+            font-size: 5rem;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--accent);
+        }
+        .col-2{
+            height:200vh;
+            background-color: var(--accent);
+        }
+        
+        
+        .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        .menu li {
+        padding: 8px;
+        margin-top: 30%;
+        background-color: var(--accent);
+        color: var(--text-light);
+        font-size: 0.8rem;
+        }
+        .menu li:hover {
+        background-color: var(--accent);
+        }
+        .col-9, img{
+            margin: 15px;
+            text-align: center;
+            margin: 2rem;
+           }
+           .col-9 img{
+               position: relative;
+               max-width: 40%;
+               width: 500px;
+               border-radius: 1.5rem;
+
+           }
+           .col-9 h2{
+               margin-top: 0.8rem;
+               margin-bottom: 0;
+        
+           }
+           .col-9 p{
+                font-size: 1rem;
+               margin-top: 0.5rem;
+               margin-bottom: 2rem;
+        
+           }
+           .attractie1, .attractie2{
+           max-width: 100%;
+           min-height: 20rem;
+            }
+            .attractie2{
+            margin-top: 0rem;
+            }
+        
+           .attractie1 p{
+            margin: 1rem;
+           }
+           .attractie2 p{
+            margin: 1rem;
+           }
+           .footer{
+            clear: both;
+            position: relative;
+            height: 85px;
+            margin-top: -85px;
+            width: 100%;
+            background-color: var(--accent);
+            color: var(--text-light);
+            border: 1px solid black;
+            font-size: 0.6rem;
+            text-align: center;
+        }
+        } 
+
+
+@media only screen and (min-width: 1785px){
+
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.header {
+background-color: var(--accent);
+
+height: 200px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+padding: 15px;
+}
+.header h1{
+    font-size: 5rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent);
+}
+.col-2{
+    height:200vh;
+    background-color: var(--accent);
+}
+
+
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.menu li {
+padding: 8px;
+margin-top: 30%;
+background-color: var(--accent);
+color: var(--text-light);
+font-size: 1.5rem;
+}
+.menu li:hover {
+background-color: var(--accent);
+}
+.col-9, img{
+    margin: 15px;
+    text-align: center;
+    margin: 2rem;
+   }
+   .col-9 img{
+       position: relative;
+       float: right; 
+       max-width: 100%;
+       width: 500px;
+       border-radius: 1.5rem;
+       margin: 0 0 0 4rem;
+   }
+   .col-9 h2{
+       margin-top: 0.5rem;
+       margin-bottom: 0;
+       font-size: 1.5rem;
+
+   }
+   .col-9 p{
+       margin-top: 0.5rem;
+       margin-bottom: 2rem;
+       font-size: 1.3rem;
+
+   }
+   .attractie1, .attractie2{
+   max-width: 100%;
+   min-height: 20rem;
+    }
+    .attractie2{
+    margin-top: 5rem;
+    }
+
+   .attractie1 p{
+    margin: 1rem;
+   }
+   .attractie2 p{
+    margin: 1rem;
+   }
+   .footer{
+    clear: both;
+    position: relative;
+    height: 85px;
+    margin-top: -85px;
+    width: 100%;
+    background-color: var(--accent);
+    color: var(--text-light);
+    border: 1px solid black;
+    font-size: 0.8rem;
+    text-align: center;
+}
+}
